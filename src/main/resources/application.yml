@@ -2,6 +2,6 @@ spring:
   application:
     name: sms-sender-api
 twilio:
-  account_sid: ${TWILIO_ACCOUNT_SID:AC6bd8cfd81abaca3ca64e11d7f7bf2ff1}
-  auth_token: ${TWILIO_AUTH_TOKEN:7b781e70479a31b62a594f4113a21ce5}
-  trial_number: ${TWILIO_TRIAL_NUMBER:+17129381995}
+  account_sid: ${TWILIO_ACCOUNT_SID:XXXXXXXX}
+  auth_token: ${TWILIO_AUTH_TOKEN:XXXXXXXXXXX}
+  trial_number: ${TWILIO_TRIAL_NUMBER:+XXXXXXXX}
