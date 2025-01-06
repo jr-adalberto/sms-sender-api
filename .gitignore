@@ -1,4 +1,9 @@
+# Ignorar o arquivo principal de configuração
 src/main/resources/application.yml
+
+# Garantir que o arquivo de exemplo seja mantido
+!src/main/resources/application-example.yml
+
 HELP.md
 .gradle
 build/
